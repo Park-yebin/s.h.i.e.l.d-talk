@@ -4,6 +4,8 @@
 @import "screen/login.css";
 /*component*/
 @import "component/top-bar.css";
+@import "component/nav.css";
+@import "component/screen-header.css";
 
 body {
   height: 150vh;
