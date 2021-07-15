@@ -2,6 +2,7 @@
 @import "variable.css";
 /*screen*/
 @import "screen/login.css";
+@import "screen/globe.css";
 /*component*/
 @import "component/top-bar.css";
 @import "component/nav.css";

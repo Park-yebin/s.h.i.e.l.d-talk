@@ -1,0 +1,65 @@
+.asia-header,
+.europe-header,
+.america-header,
+.africa-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+.globe-main {
+  margin: 130px 0px 0px;
+}
+.earth {
+  margin-right: 5px;
+}
+.asia,
+.europe,
+.america,
+.africa {
+  padding-bottom: 20px;
+}
+.asia__title,
+.europe__title,
+.america__title,
+.africa__title {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.fa-ellipsis-v {
+  margin-right: 25px;
+}
+.news {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  padding: 0px 10px 10px;
+}
+.news-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px;
+  border-right: 1px solid black;
+}
+.asia-news:last-of-type,
+.europe-news:last-of-type,
+.america-news:last-of-type,
+.africa-news:last-of-type {
+  border-right: none;
+}
+.news-img {
+  width: 250px;
+  height: 150px;
+}
+.news-sub__detail {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+}
