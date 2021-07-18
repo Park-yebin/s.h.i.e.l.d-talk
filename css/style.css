@@ -4,6 +4,7 @@
 @import "screen/login.css";
 @import "screen/globe.css";
 @import "screen/agent.css";
+@import "screen/more.css";
 /*component*/
 @import "component/top-bar.css";
 @import "component/nav.css";
